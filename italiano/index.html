@@ -1,12 +1,16 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta http-equiv="refresh" content="0; url=https://forseniors.shop/it/pages/receitas-italiano" />
     <title>Redirecionando...</title>
+    <noscript>
+        <meta http-equiv="refresh" content="0; url=https://forseniors.shop/it/pages/receitas-italiano" />
+    </noscript>
 </head>
 <body>
     <script>
-        window.location.href = "https://forseniors.shop/it/pages/receitas-italiano";
+        var targetUrl = "https://forseniors.shop/it/pages/receitas-italiano";
+        var queryString = window.location.search;
+        window.location.replace(targetUrl + queryString);
     </script>
 </body>
 </html>
